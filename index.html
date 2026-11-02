@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcycle Brand Storefront</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">RE:CLOTH</div>
+        <nav class="nav-menu">
+            <a href="#collections">Collections</a>
+            <a href="#philosophy">Brand Philosophy</a>
+            <a href="#process">Upcycling Process</a>
+            <a href="#stores">Stores</a>
+        </nav>
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Unique Oversized Clothing from Recycled Materials</h1>
+                <a href="#collections" class="cta-button">Explore Lookbook</a>
+            </div>
+        </section>
+
+        <section class="grid-section" id="collections">
+            <h2>Upcycled Collections</h2>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-img"></div>
+                    <h3>Patchwork Denim Jacket</h3>
+                    <p class="price">120.000 KZT</p>
+                    <p class="specs">Size: L | Material: 100% Recycled Denim</p>
+                    <button class="buy-btn">Buy</button>
+                </article>
+                <article class="product-card">
+                    <div class="product-img"></div>
+                    <h3>Reconstructed Trench</h3>
+                    <p class="price">180.000 KZT</p>
+                    <p class="specs">Size: M | Material: Vintage Cotton</p>
+                    <button class="buy-btn">Buy</button>
+                </article>
+                <article class="product-card">
+                    <div class="product-img"></div>
+                    <h3>Upcycled Hoodie</h3>
+                    <p class="price">95.000 KZT</p>
+                    <p class="specs">Size: XL | Material: Mixed Knitwear</p>
+                    <button class="buy-btn">Buy</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Send Us Your Items for Recycling</h2>
+            <form class="feedback-form">
+                <div class="form-group">
+                    <label for="itemSpec">Item Specification</label>
+                    <input type="text" id="itemSpec" name="itemSpec" required placeholder="e.g., Old cotton jeans">
+                </div>
+                <div class="form-group">
+                    <label for="address">Shipping Address</label>
+                    <input type="text" id="address" name="address" required placeholder="Almaty,IITU Manasov street">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Contact Phone</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+7 (777) 000-00-00">
+                </div>
+                <button type="submit" class="submit-btn">Submit Item</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="manifesto">
+            <p>© 2026 Upcycle Brand. Fashion without waste. Sustainable development manifesto.</p>
+        </div>
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">Telegram</a>
+            <a href="#">YouTube</a>
+        </div>
+    </footer>
+</body>
+</html>
